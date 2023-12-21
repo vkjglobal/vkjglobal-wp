@@ -1,0 +1,125 @@
+[12-Apr-2022 11:33:18 UTC] WordPress database error Unknown column 'wp_vkjglobal' in 'field list' for query SELECT wp_vkjglobal
+[12-Apr-2022 11:33:18 UTC] WordPress database error Incorrect table name '' for query INSERT INTO `` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', 'f_lE&oPK]U8XRX7~}h^[d6*]3w]~G6U18E_z$c$/!7 7?RH ]4u&p(27GpHU:/3+', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by wp_print_scripts, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[12-Apr-2022 11:33:18 UTC] WordPress database error Incorrect table name '' for query INSERT INTO `` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_salt', 'nso$G{U]e{eN79s2&exWQ,87M5ymD>UjQ&vY 8n!tuTlv`Q%A#h=z1+K$J3$*Whj', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by wp_print_scripts, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[21-Apr-2022 05:00:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/vkjgloba/public_html/wp-includes/update.php on line 413
+[21-Apr-2022 05:00:41 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/vkjgloba/public_html/wp-includes/update.php on line 693
+[21-Apr-2022 05:36:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function AWB_Global_Typography() in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php:1682
+Stack trace:
+#0 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(307): FusionBuilder->admin_scripts('post.php')
+#1 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vkjgloba/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/vkjgloba/public_html/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'post.php')
+#4 /home/vkjgloba/public_html/wp-admin/edit-form-advanced.php(425): require_once('/home/vkjgloba/...')
+#5 /home/vkjgloba/public_html/wp-admin/post.php(206): require('/home/vkjgloba/...')
+#6 {main}
+  thrown in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php on line 1682
+[21-Apr-2022 05:37:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function AWB_Global_Typography() in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php:1682
+Stack trace:
+#0 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(307): FusionBuilder->admin_scripts('post.php')
+#1 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vkjgloba/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/vkjgloba/public_html/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'post.php')
+#4 /home/vkjgloba/public_html/wp-admin/edit-form-advanced.php(425): require_once('/home/vkjgloba/...')
+#5 /home/vkjgloba/public_html/wp-admin/post.php(206): require('/home/vkjgloba/...')
+#6 {main}
+  thrown in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php on line 1682
+[21-Apr-2022 05:37:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function AWB_Global_Typography() in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php:1682
+Stack trace:
+#0 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(307): FusionBuilder->admin_scripts('post.php')
+#1 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vkjgloba/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/vkjgloba/public_html/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'post.php')
+#4 /home/vkjgloba/public_html/wp-admin/edit-form-advanced.php(425): require_once('/home/vkjgloba/...')
+#5 /home/vkjgloba/public_html/wp-admin/post.php(206): require('/home/vkjgloba/...')
+#6 {main}
+  thrown in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php on line 1682
+[21-Apr-2022 05:37:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function AWB_Global_Typography() in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php:1682
+Stack trace:
+#0 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(307): FusionBuilder->admin_scripts('post.php')
+#1 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vkjgloba/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/vkjgloba/public_html/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'post.php')
+#4 /home/vkjgloba/public_html/wp-admin/edit-form-advanced.php(425): require_once('/home/vkjgloba/...')
+#5 /home/vkjgloba/public_html/wp-admin/post.php(206): require('/home/vkjgloba/...')
+#6 {main}
+  thrown in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php on line 1682
+[21-Apr-2022 05:40:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function AWB_Global_Typography() in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php:1682
+Stack trace:
+#0 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(307): FusionBuilder->admin_scripts('post.php')
+#1 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vkjgloba/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/vkjgloba/public_html/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'post.php')
+#4 /home/vkjgloba/public_html/wp-admin/edit-form-advanced.php(425): require_once('/home/vkjgloba/...')
+#5 /home/vkjgloba/public_html/wp-admin/post.php(206): require('/home/vkjgloba/...')
+#6 {main}
+  thrown in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php on line 1682
+[21-Apr-2022 05:41:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function AWB_Global_Typography() in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php:1682
+Stack trace:
+#0 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(307): FusionBuilder->admin_scripts('post.php')
+#1 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vkjgloba/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/vkjgloba/public_html/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'post.php')
+#4 /home/vkjgloba/public_html/wp-admin/edit-form-advanced.php(425): require_once('/home/vkjgloba/...')
+#5 /home/vkjgloba/public_html/wp-admin/post.php(206): require('/home/vkjgloba/...')
+#6 {main}
+  thrown in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php on line 1682
+[21-Apr-2022 05:41:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function AWB_Global_Typography() in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php:1682
+Stack trace:
+#0 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(307): FusionBuilder->admin_scripts('post.php')
+#1 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vkjgloba/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/vkjgloba/public_html/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'post.php')
+#4 /home/vkjgloba/public_html/wp-admin/edit-form-advanced.php(425): require_once('/home/vkjgloba/...')
+#5 /home/vkjgloba/public_html/wp-admin/post.php(206): require('/home/vkjgloba/...')
+#6 {main}
+  thrown in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php on line 1682
+[21-Apr-2022 06:37:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function AWB_Global_Typography() in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php:1682
+Stack trace:
+#0 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(307): FusionBuilder->admin_scripts('post.php')
+#1 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vkjgloba/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/vkjgloba/public_html/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'post.php')
+#4 /home/vkjgloba/public_html/wp-content/plugins/js_composer/include/templates/editors/frontend_editor.tpl.php(19): require_once('/home/vkjgloba/...')
+#5 /home/vkjgloba/public_html/wp-content/plugins/js_composer/include/helpers/helpers.php(985): require('/home/vkjgloba/...')
+#6 /home/vkjgloba/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php(500): vc_include_template('editors/fronten...', Array)
+# in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php on line 1682
+[21-Apr-2022 06:37:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function AWB_Global_Typography() in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php:1682
+Stack trace:
+#0 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(307): FusionBuilder->admin_scripts('post.php')
+#1 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vkjgloba/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/vkjgloba/public_html/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'post.php')
+#4 /home/vkjgloba/public_html/wp-admin/edit-form-advanced.php(425): require_once('/home/vkjgloba/...')
+#5 /home/vkjgloba/public_html/wp-admin/post.php(206): require('/home/vkjgloba/...')
+#6 {main}
+  thrown in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php on line 1682
+[21-Apr-2022 07:13:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function AWB_Global_Typography() in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php:1682
+Stack trace:
+#0 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(307): FusionBuilder->admin_scripts('post.php')
+#1 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vkjgloba/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/vkjgloba/public_html/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'post.php')
+#4 /home/vkjgloba/public_html/wp-admin/edit-form-advanced.php(425): require_once('/home/vkjgloba/...')
+#5 /home/vkjgloba/public_html/wp-admin/post.php(206): require('/home/vkjgloba/...')
+#6 {main}
+  thrown in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php on line 1682
+[21-Apr-2022 08:13:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function AWB_Global_Typography() in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php:1682
+Stack trace:
+#0 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(307): FusionBuilder->admin_scripts('post-new.php')
+#1 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vkjgloba/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/vkjgloba/public_html/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'post-new.php')
+#4 /home/vkjgloba/public_html/wp-admin/edit-form-advanced.php(425): require_once('/home/vkjgloba/...')
+#5 /home/vkjgloba/public_html/wp-admin/post-new.php(75): require('/home/vkjgloba/...')
+#6 {main}
+  thrown in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php on line 1682
+[21-Apr-2022 08:13:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function AWB_Global_Typography() in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php:1682
+Stack trace:
+#0 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(307): FusionBuilder->admin_scripts('post-new.php')
+#1 /home/vkjgloba/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vkjgloba/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/vkjgloba/public_html/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'post-new.php')
+#4 /home/vkjgloba/public_html/wp-admin/edit-form-advanced.php(425): require_once('/home/vkjgloba/...')
+#5 /home/vkjgloba/public_html/wp-admin/post-new.php(75): require('/home/vkjgloba/...')
+#6 {main}
+  thrown in /home/vkjgloba/public_html/wp-content/plugins/fusion-builder/inc/class-fusion-builder.php on line 1682

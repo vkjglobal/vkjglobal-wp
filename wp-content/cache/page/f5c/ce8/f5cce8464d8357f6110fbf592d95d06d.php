@@ -1,0 +1,1 @@
+be<?php exit; ?>a:4:{i:404;b:0;s:7:"headers";a:2:{s:11:"Status-Code";i:301;s:8:"Location";s:64:"https://www.vkjglobal.com/aws/config/secrets/aws-credentials.ini";}s:4:"time";i:1694631506;s:7:"content";s:0:"";}

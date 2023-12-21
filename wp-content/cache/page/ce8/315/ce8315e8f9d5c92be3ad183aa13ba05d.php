@@ -1,0 +1,1 @@
+hdxe<?php exit; ?>a:4:{i:404;b:0;s:7:"headers";a:2:{s:11:"Status-Code";i:301;s:8:"Location";s:47:"https://www.vkjglobal.com/js/NewWindow_2_all.js";}s:4:"time";i:1702385240;s:7:"content";s:0:"";}
